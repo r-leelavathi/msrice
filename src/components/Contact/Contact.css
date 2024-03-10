@@ -1,0 +1,125 @@
+.contact__main{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+
+}
+.contact__Container {
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+}
+
+.contact__left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lightgray);
+    border: 2px solid black;
+}
+
+.contact__left__first {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cont__outer__div {
+    display: flex;
+    gap: 2rem;
+}
+
+.contact__icon {
+    padding: 1rem;
+    font-size: 2rem;
+    ;
+}
+
+.contact_details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    color: black;
+    margin-right: 2rem;
+}
+
+.contact_details>:nth-child(1) {
+        font-weight: bold;
+}
+
+.contact__right {
+    flex: 2;
+    /* background: linear-gradient(106.37deg,
+    #ece5dc 29.63%,
+    #d7c3c4 51.55%,
+    #8b848b 90.85%); */
+background: white;
+}
+
+.contact__right>h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.form__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form__details>:nth-child(1),
+.form__details>:nth-child(2),
+.form__details>:nth-child(3) {
+    padding: 1rem;
+    width: 75%;
+}
+
+.form__details>:nth-child(3) {
+    height: 8rem;
+}
+
+.form__details>:nth-child(4) {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    width: 40%;
+    bottom:0.2rem;    
+}
+
+.map-container {
+    width: 100%;
+    max-width: 900px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.hero-blur-r{
+width:22rem;
+height: 12rem;
+right:0;
+}
+
+.hero-blur-l{
+
+    background: rgba(253, 120,43,0.69);    width:22rem;
+    height: 42rem;
+    left:0;
+    }
+
+@media  screen and (max-width:600px) {
+    .contact__Container{
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+}
